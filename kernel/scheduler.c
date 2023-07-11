@@ -287,7 +287,6 @@ void scheduler_dispatch () {
                         }
                         queue_delete_first();
                         is_terminate = true;
-                        printf("terminatedd");
                         continue;
 
                 }
